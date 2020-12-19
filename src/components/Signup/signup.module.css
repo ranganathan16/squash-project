@@ -1,0 +1,318 @@
+.header {
+  background-color: #2e4b64;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.formList {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.formList li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 72px;
+  color: white;
+  opacity: 0.8;
+}
+
+li.activeItem {
+  opacity: 1 !important;
+}
+
+.formList .itemIcon {
+  background-color: #28435a;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  padding: 5px 1px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  /* text-align: center; */
+}
+
+.formList .itemIcon img {
+  width: 20px;
+  height: 20px;
+}
+
+.formList .itemName {
+  font-size: 18px;
+}
+
+.activeItem .itemIcon {
+  background-color: orange;
+}
+
+.container {
+  background-color: #f9fafa;
+  min-height: 100vh;
+}
+
+.formHeading {
+  text-align: center;
+  margin-bottom: 28px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formSection {
+  border-radius: 4px;
+  background-color: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+.formGroup {
+  width: 100%;
+}
+.formGroup label {
+  float: left;
+}
+.formSection input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 9px;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-top: 6px;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: orange;
+}
+
+.gender {
+  margin-top: 9px;
+}
+
+.gender button {
+  border: 3px solid #ececec;
+  background-color: white;
+  color: #0a0909;
+  margin-right: 8px;
+  padding: 10px 0px;
+  border-radius: 6px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+}
+
+.genderselected {
+  border: 3px solid #fdeee6 !important;
+  color: #ed5901 !important;
+  background-color: #fdeee6 !important;
+}
+
+.phonefield {
+  padding: 0;
+  margin-top: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.phonefield div {
+  width: 85px;
+  float: left;
+  line-height: 2.5;
+  background-color: #f9f9f9;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.phonefield img {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 7.5px 10px;
+}
+
+.phonefield p {
+  float: left;
+  line-height: 0.4;
+}
+
+.phonefield input {
+  border: none !important;
+  margin-top: 0 !important;
+  max-width: 100%;
+  width: calc(100% - 85px) !important;
+  outline: none;
+}
+
+label {
+  color: #7e7e7e;
+}
+
+input[type="submit"] {
+  background-color: #ed5901;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff5e00;
+}
+
+.login {
+  text-align: center;
+  padding: 27px 0px;
+}
+
+.login p {
+  color: #6a6969;
+}
+
+.clickLogin {
+  color: #ed5901;
+}
+
+.terms {
+  color: #ed5901;
+}
+
+.backBtn {
+  background-color: white;
+  color: black;
+  min-width: 100px;
+  margin-right: 15px;
+  padding: 10px 0px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #dadada;
+}
+
+.btnOTP {
+  border: 2px solid #ed5901;
+  background-color: #ed5901;
+  color: white;
+  min-width: 340px;
+  padding: 10px 0px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btnOTP:disabled {
+  opacity: 0.4;
+  cursor: revert;
+}
+.countrySelect {
+  margin-top: 9px;
+  outline: none;
+}
+.stateSelect {
+  margin-top: 9px;
+  outline: none;
+}
+
+.countryOpt {
+  width: 100%;
+  line-height: 2.5;
+  padding: 2px;
+}
+
+.countryOpt img {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin: 2px;
+}
+
+.countryOpt p {
+  margin: 0px !important;
+  padding-left: 43px;
+}
+
+.companyLogo {
+  height: 100px;
+}
+
+.logoInput {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f8f9fa;
+  border: 2px dashed #e4e8eb;
+}
+
+.cmpUploadImg {
+  width: 100px;
+  height: 100px;
+}
+
+.cmpSelectedImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.comlogoText {
+  float: left;
+  margin-top: 39px;
+  margin-left: 20px;
+}
+
+.otpInputContainer {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.otpInputContainer div {
+  width: 20%;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.otpInput {
+  height: 60px;
+  width: 60px !important;
+  border-radius: 4px;
+  border: 2px solid #cecece;
+  outline: none;
+}
+
+.otpInput:focus {
+  border-color: #ed5901;
+}
+
+.emailNote {
+  text-align: center;
+  width: 500px;
+  /* width: 100%; */
+  margin: 0 auto;
+  border-top: 2px solid #cecece;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px;
+}
+
+.emailNote p {
+  margin: 0px 20px;
+  line-height: 1.5;
+}
