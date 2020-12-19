@@ -145,7 +145,7 @@ const PersonalDetails = (props) => {
             hideSelectedOptions={false}
           ></Select>
           <div className={classes.errorMessage}>
-            {formik.errors.countryId ? (
+            {formik.touched.countryId && formik.errors.countryId ? (
               formik.errors.countryId
             ) : (
               <span>&emsp;</span>

@@ -6,6 +6,7 @@ import PersonalDetails from "./personalDetails";
 import EmailVerification from "./emailVerification";
 import tick from "../../asserts/icons/tick.png";
 import { useHistory } from "react-router-dom";
+import { countryList } from "../../shared/utility";
 
 const Signup = () => {
   document.title = "Registration";
@@ -16,6 +17,7 @@ const Signup = () => {
     gender: "",
     state: "",
     phone: "",
+    countryId: "",
     countryCode: "",
     countryName: "",
     countryFlag: "",
